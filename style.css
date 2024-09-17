@@ -1,0 +1,289 @@
+@media (max-width:320px) {
+    body .nav {
+        opacity: 0.0;
+    }
+    body img {
+        height: 120vh;
+        width: 125vw!important; 
+    }
+    body .row1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 6vh;
+        margin-right: 5vh;
+    }
+    body .footer {
+        text-align: center;
+        font-size: 5vh;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        margin-left: 12vh;
+    }
+}
+
+
+
+
+
+
+@media (min-width:321px) and (max-width:375px) {
+    body .nav {
+        opacity: 0.0;
+    }
+    body img {
+        height: 120vh;
+        width: 125vw!important; 
+    }
+    body .row1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4vh;
+    }
+    body .footer {
+        text-align: center;
+        font-size: 5vh;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        margin-left: 12vh;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width:376px) and (max-width:425px) {
+    body .nav {
+        opacity: 0.0;
+    }
+    body img {
+        height: 120vh;
+        width: 125vw!important; 
+    }
+    body .row1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 3vh;
+    }
+    body .footer {
+        text-align: center;
+        font-size: 5vh;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        margin-left: 12vh;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width:426px) and (max-width:768px) {
+    body .nav {
+        opacity: 0.0;
+    }
+    body img {
+        height: 80vh;
+        width: 100vw!important; 
+    }
+    body .row1 {
+        display: flex;
+        padding: 6vh;
+        flex-wrap: wrap;
+        margin-right: 5vh;
+    }
+    body .footer {
+        text-align: center;
+        font-size: 5vh;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        margin-left: 4vh;
+    }
+    body .gallery {
+        gap: 0vh!important;
+    }
+}
+
+
+
+
+
+
+@media (min-width:729px) and (max-width:1024px) {
+    .nav {
+        padding-right: 50vh;
+    }
+}
+
+
+
+
+
+
+img {
+    height: 30vh;
+    cursor: pointer;
+    display: flex;
+}
+span{
+    background-color: black;
+    display: flex;
+}
+.effect {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.427);
+    color: white;
+    width: 53vw;
+    height: 30vh;
+    opacity: 0.0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s linear;
+    flex-direction: column;
+    cursor: pointer;
+}
+.effect:hover {
+    opacity: 0.9;
+}
+.effect1 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.427);
+    color: white;
+    width: 31vw;
+    height: 30vh;
+    opacity: 0.0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s linear;
+    flex-direction: column;
+    cursor: pointer;
+}
+.effect1:hover {
+    opacity: 0.9;
+}
+.effect2 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.427);
+    color: white;
+    width: 21vw;
+    height: 30vh;
+    opacity: 0.0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s linear;
+    flex-direction: column;
+    cursor: pointer;
+}
+.effect2:hover {
+    opacity: 0.9;
+}
+.effect3 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.427);
+    color: white;
+    width: 40.7vw;
+    height: 30vh;
+    opacity: 0.0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s linear;
+    flex-direction: column;
+    cursor: pointer;
+}
+.effect3:hover {
+    opacity: 0.9;
+}
+.effect4 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.427);
+    color: white;
+    width: 42vw;
+    height: 30vh;
+    opacity: 0.0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s linear;
+    flex-direction: column;
+    cursor: pointer;
+}
+.effect4:hover {
+    opacity: 0.9;
+}
+.effect5 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.427);
+    color: white;
+    width: 28.5vw;
+    height: 30vh;
+    opacity: 0.0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s linear;
+    flex-direction: column;
+    cursor: pointer;
+}
+.effect5:hover {
+    opacity: 0.9;
+}
+.effect6 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.427);
+    color: white;
+    width: 25.7vw;
+    height: 30vh;
+    opacity: 0.0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s linear;
+    flex-direction: column;
+    cursor: pointer;
+}
+.effect6:hover {
+    opacity: 0.9;
+}
+li {
+    list-style-type: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1vh;
+    cursor: pointer;
+}
+li:hover {
+    color: rgb(207, 36, 36);
+}
+.nav {
+    padding: 5vh;
+}
+.icons {
+    margin-left: 14vh;
+}
+i {
+    cursor: pointer;
+}
+i:hover {
+    color: rgb(207, 36, 36);
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+}
